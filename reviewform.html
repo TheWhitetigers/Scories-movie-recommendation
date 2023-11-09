@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+    <link rel="icon" type="imag/x-icons" href="image/Jude.jpg">
+    <style>
+        form {
+            width:100%;
+        }
+         fieldset {
+            width:40%;
+            background-color: rgb(155, 65, 65);
+            margin: auto;
+            text-align: center;           
+        }
+        legend {
+            background-color:rgb(94, 51, 119);
+            padding:7px 12px;
+            border-radius: 15px;
+        }
+        input {
+            width: 250px;
+            height: 40px;
+        }
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(92, 113, 205);
+    }
+    button {
+        width:55px;
+        height: 40px;
+    }
+
+    </style>
+</head>
+<body>
+   <form method="post">
+    <fieldset>
+        <legend>Review Form</legend>
+        <div class="star_ratting">
+            <button class="button_star">&#9734;</button>
+            <button class="button_star">&#9734;</button>
+            <button class="button_star">&#9734;</button>
+            <button class="button_star">&#9734;</button>
+            <button class="button_star">&#9734;</button>
+            
+        </div>
+        <br><input type="text" value="" name="email" placeholder="email"><br>
+        <input type="text" value="" name="username" placeholder="username"><br><br>
+        <input type="review" value="" name="review" placeholder="enter review" required><br><br>
+        <button type="submit">Submit</button>
+        
+    </fieldset>
+   </form> 
+</body>
+</html>
